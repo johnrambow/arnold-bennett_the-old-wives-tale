@@ -35,3 +35,9 @@ header{
 	margin: 1em;
 	text-align: center;
 }
+
+blockquote.epitaph{
+	font-style: normal;
+	font-variant: all-small-caps;
+	text-align: center;
+}

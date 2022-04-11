@@ -36,11 +36,6 @@ header{
 	text-align: center;
 }
 
-blockquote.epitaph{
-	font-style: normal;
-	font-variant: all-small-caps;
-	text-align: center;
-}
 [epub|type~="z3998:letter"] header{
 	text-align: right;
 }
@@ -66,4 +61,14 @@ footer{
 	margin-top: 1em;
 	text-align: initial;
 	text-indent: 0;
+}
+blockquote.epitaph{
+	font-style: normal;
+	font-variant: all-small-caps;
+	text-align: center;
+}
+blockquote.card{
+	font-style: normal;
+	font-variant: all-small-caps;
+	text-align: center;
 }

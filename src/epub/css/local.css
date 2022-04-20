@@ -32,14 +32,14 @@ section[epub|type~="dedication"] > *{
 }
 /* End all dedications */
 
-/* All lettters */
+
 header{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
 }
-
-[epub|type~="z3998:letter"],
+/* All lettters */
+[epub|type~="z3998:letter"]
  header{
 	text-align: right;
 }

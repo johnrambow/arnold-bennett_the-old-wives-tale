@@ -83,3 +83,9 @@ blockquote.refrain{
 	text-align: center;
 	font-style: italic;
 }
+[epub|type~="preface"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+	text-align: center;
+}

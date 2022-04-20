@@ -43,7 +43,6 @@ header{
  header{
 	text-align: right;
 }
-
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -82,10 +81,4 @@ blockquote.refrain{
 	font-style: normal;
 	text-align: center;
 	font-style: italic;
-}
-[epub|type~="preface"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-	text-align: center;
 }

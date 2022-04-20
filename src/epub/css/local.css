@@ -32,13 +32,15 @@ section[epub|type~="dedication"] > *{
 }
 /* End all dedications */
 
+/* All lettters */
 header{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
 }
 
-[epub|type~="z3998:letter"] header{
+[epub|type~="z3998:letter"],
+ header{
 	text-align: right;
 }
 
@@ -64,6 +66,8 @@ footer{
 	text-align: initial;
 	text-indent: 0;
 }
+/* End all letters */
+
 blockquote.epitaph{
 	font-style: normal;
 	font-variant: all-small-caps;

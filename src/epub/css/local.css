@@ -1,7 +1,22 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
-@namespace xml "http://www.w3.org/XML/1998/namespace";
 
+blockquote.epitaph{
+	font-size: small;
+	font-style: normal;
+	font-variant: all-small-caps;
+	text-align: center;
+}
+
+blockquote.epitaph span{
+	font-size: x-large;
+}
+
+blockquote.refrain{
+	font-style: normal;
+	font-style: italic;
+	text-align: center;
+}
 
 /* All dedications */
 section[epub|type~="dedication"]{
@@ -32,17 +47,17 @@ section[epub|type~="dedication"] > *{
 }
 /* End all dedications */
 
-
 header{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
 }
+
 /* All lettters */
-[epub|type~="z3998:letter"]
- header{
+[epub|type~="z3998:letter"] header{
 	text-align: right;
 }
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -54,7 +69,6 @@ footer{
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -67,18 +81,19 @@ footer{
 }
 /* End all letters */
 
-blockquote.epitaph{
-	font-style: normal;
-	font-variant: all-small-caps;
-	text-align: center;
+/* All songs */
+[epub|type~="z3998:song"] p{
+	text-align: initial;
+	text-indent: 0;
 }
-blockquote.card{
-	font-style: normal;
-	font-variant: all-small-caps;
-	text-align: center;
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
 }
-blockquote.refrain{
-	font-style: normal;
-	text-align: center;
-	font-style: italic;
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
 }
+/* End all songs */

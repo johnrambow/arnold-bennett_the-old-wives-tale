@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-*.xhtml">
+		<ignore>
+			<code>c-020</code>
+			<reason>Sections used to separate subchapters don't need to have a page break after them.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2-5.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>No ending punctuation used in the quotation on the epitaph</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>

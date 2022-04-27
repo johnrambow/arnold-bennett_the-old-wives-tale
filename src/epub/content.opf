@@ -48,7 +48,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Old Wives’ Tale&lt;/i&gt; begins in the 1860s, in the industrial “Five Towns” in the English Midlands, where Arnold Bennett set many of his partially autobiographical novels and stories. It is about the prosperous Baines family, who live above the successful clothing shop they own in the town of Bursley (based on Burslem, in Staffordshire). Even when the two Baines daughters were still young, their characters are already formed. Sophia has “youth, beauty, and rank in her favour,” while Constance is “foolishly good-natured,” with benevolence that is “eternally rising up and overpowering her reason.”&lt;/p&gt;
 			&lt;p&gt;Their paths diverge quickly. While still in her teens, the headstrong Sophia elopes with a traveling salesman, leaving England’s provinces for Paris. Constance, who later marries the head employee at the store, hardly ever leaves their town–or even the square where their shop is located. It’s not until decades later, in the novel’s fourth and final section, that the two sisters meet again to compare their lives and their triumphs and disappointments. As the novelist J. B. Priestley observed, this gently ironic and sprawling novel sets its “two suffering heroines” against “three conquering heroes, Time, Mutability, and Death.”&lt;/p&gt;
-			&lt;p&gt;&lt;a href=” https://standardebooks.org/ebooks/Arnold-Bennett”Arnold Bennett&lt;/a&gt; (1867–1931) wrote over 40 novels and published many other short stories, plays, and even self-help books during his extremely successful career. Along with &lt;i&gt;Anna of the Five Towns&lt;/i&gt;, &lt;i&gt;Clayhanger&lt;/i&gt;, and &lt;i&gt;Riceyman Steps&lt;/i&gt;, &lt;i&gt;The Old Wives’ Tale&lt;/i&gt; is considered one of his finest works.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/Arnold-Bennett"&gt;Arnold Bennett&lt;/a&gt; (1867–1931) wrote over 40 novels and published many other short stories, plays, and even self-help books during his extremely successful career. Along with &lt;i&gt;Anna of the Five Towns&lt;/i&gt;, &lt;i&gt;Clayhanger&lt;/i&gt;, and &lt;i&gt;Riceyman Steps&lt;/i&gt;, &lt;i&gt;The Old Wives’ Tale&lt;/i&gt; is considered one of his finest works.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5247</dc:source>
@@ -60,10 +60,10 @@
 		<dc:creator id="author">Arnold Bennett</dc:creator>
 		<meta property="file-as" refines="#author">Bennett, Arnold</meta>
 		<meta property="se:name.person.full-name" refines="#author">Enoch Arnold Bennett</meta>
-<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Arnold_Bennett</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Arnold_Bennett</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79095154</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#writer-of-preface" scheme="marc:relators">wpr</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Albert Edelfelt</dc:contributor>
 		<meta property="file-as" refines="#artist">Edelfelt, Albert</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Edelfelt</meta>
@@ -72,8 +72,8 @@
 		<dc:contributor id="transcriber-1">Charles Franks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Franks, Charles</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-1">The Online Distributed Proofreading Team</dc:contributor>
-<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
+		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">John Rambow</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rambow, John</meta>

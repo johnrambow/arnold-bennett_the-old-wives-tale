@@ -2,14 +2,14 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 blockquote.epitaph{
-	font-size: small;
+	font-size: .80em;
 	font-style: normal;
 	font-variant: all-small-caps;
 	text-align: center;
 }
 
 blockquote.epitaph span{
-	font-size: x-large;
+	font-size: 1.75em;
 }
 
 blockquote.refrain{
